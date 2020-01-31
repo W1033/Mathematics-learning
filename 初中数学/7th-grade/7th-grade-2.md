@@ -65,6 +65,20 @@
 
 
 ## 生词(New Word)
+- **transposition [ˌtrænzpə'zɪʃən] --n.调换, 变换, 移项**
+    + transposition of word order. 词序的换位.
+- **linear ['lɪnɪə] --adj.线性的, 直线的, 线状的**
+    + linear equation with one unknown. 一元一次方程.
+    + a linear equation. 一次方程
+- **equation [ɪ'kweɪʒ(ə)n] --n.相等；均衡；方程式；等式**
+    + The equation of wealth with happiness can be dangerous.
+        把财富与幸福等同起来是很危险的。
+    + I can't make this equation come out. 我不会解这个方程式。
+    + an equation of the second degree. 二次方程式
+    + a chemical equation 化学方程式 
+- **unknown [ʌn'nəʊn] --adj.未知的, 不明的.**
+    + an unknown place. 未知的场所.
+    + for some unknown reason. 为了某种未知的理由
 
 
 
@@ -125,7 +139,7 @@
           $$
 - 6.2 解一元二次方程 (4)
     + 6.2.1 等式的性质与方程的简单变形 (4)
-        - **等式的基本性质**:
+        - **[1] 等式的基本性质**:
             + (1) `等式两边都加上(或都减去)同一个数或同一个整式, 所得结果仍是等式.`
                 $$
                     如果 a = b, 那么 \; a + c = b + c, \; a - c = b - c.
@@ -133,8 +147,34 @@
             + (2) `等式两边都乘以(或都除以)同一个数(除数不能为0), 所得结果仍然是等式.`
                 $$
                     如果 a = b, 那么 \; ac = bc, \; \frac{a}{c} = \frac{b}{c} (c\neq0).
-                $$    
+                $$
+        - **[2]** 由等式的基本性质, 可以得到 **方程的变形规则**:
+            + (1) `方程两边都加上(或都减去)同一个数或同一个整式, 方程的解不变.`
+            + (2) `方程两边都乘以(或都除以)同一个不等于 0 的数, 方程的解不变.`  
+        - 根据 `[1], [2]` 的这些规则, 我们可以对方程进行适当的变形, 球方程的解.
+            + <img src="./images-7th-2/p6.png" 
+                style="margin-left: 0; width: 69%; border: 1px solid #ccc">
+              以上 2 个方程的解法, 都依据了方程的变形规则 (1), 这里的变形, 
+              相当于 `将方程中的某些项改变符号后, 从方程的一边移动到另一边,`-
+              `像这样的变形叫做 移项 (transposition).`
+            + <img src="./images-7th-2/p6-2.png" 
+                style="margin-left: 0; width: 60%; border: 1px solid #ccc">  
+              这 2 个方程的解法, 都依据了方程的变形规则 (2), 将方程的两边都除以未知数的系数
+              . 像这样的变形通常称作 "将未知数的系数转化为 1."
     + 6.2.2 解一元一次方程 (9)
+        - 前面我们遇到的一些方程, 例如: $44x + 64 = 328$, 
+          $\quad$ $13 + x = \frac{1}{3}(45 + x)$ 等, 有一个共同的特点:
+          $\color{#E87631}{\large 它们都只含有一个未知数(x), 并且含有未知数的式子都是整式,}$
+          $\color{#E87631}{\large 未知数的次数都是 1, 像这样的方程叫做 \bold{一元一次方程}}$
+          $\color{#E87631}{\large (linear \; equation \; with \; one \; unknown).}$
+        - 现在我们来解几个一元一次方程:
+            + **例4**: 解方程 $3(x - 2) + 1 = x - (2x - 1)$
+                - 解题步骤略, 详解见书本.
+            + **例5**: 解方程 $\frac{x - 3}{2} - \frac{2x + 1}{3} = 1$
+                - 略
+            + **例6**: 如图 6.2.4, 天平的 2 个盘内分别盛有 51g(克) 和 45g 的盐,
+              问应从盘 A 中拿出多少盐放到盘 B 中, 才能是两者所盛盐的质量相等?  
+              **答**: 
 - **阅读材料: 丢番图的墓志铭与方程 (15)**
 - 6.3 实践与探索 (16)
 - 6.4 小结 (20)
