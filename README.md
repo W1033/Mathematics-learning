@@ -1,5 +1,10 @@
 # Mathematics learning 数学学习
 
+
+$\color{#E87631}{\large }$
+$\quad$
+
+
 ## 生词
 - **exist [ɪg'zɪst] --vi.存在, 生存, 幸存**
     + --> Some people believe that ghosts exist.

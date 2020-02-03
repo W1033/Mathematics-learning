@@ -98,16 +98,18 @@
 ## 1.1 函数及其图形
 #### 1.1.1 函数, 定义域 与 值域
 - 函数, 定义域, 值域: 
-    + 在每种情形下，一个变量(例如 $y$) 的值依赖于另外一个变量(例如 $x$) 的值，我们把这样
-      的事例称为 "$y$ 是 $x$ 的函数", 并用记号表示成 
+    + 在每种情形下，一个变量(例如 $y$) 的值依赖于另外一个变量(例如 $x$) 的值,
+      我们把这样的事例称为 "$y$ 是 $x$ 的函数",
+      并用记号表示成 
       $$
-        \color{#e7691e}{y = f(x) (读作: y 等于 f 对 x 的值 
-            (y \, equals \, f \, of \, x))} 
+        \color{#E87631}{\large y = f(x)}
       $$
-      在这种表示法中，符号 $f$ 代表函数，字母 $x$ 代表 $f$ 的输入值的 
-      **自变量**，而 $y$ 是 **因变量** 或 $f$ 在 $x$ 的输出值。
-    + > *<i style="color: red">定义</i>*: 从集合 $D$ 到集合 $Y$ 的 **函数** 是一个
-      对应规则, 对于每个元素 $x \in D$ 确定唯一的(单个)元素 $f(x) \in Y$. 
+      $(读作: y 等于 f 对 x 的值 (y \; equals \; f \; of \; x))$  
+      在这种表示法中，符号 $f$ 代表函数，字母 $x$ 代表 $f$ 的输入值的 **自变量**,
+      而 $y$ 是 **因变量** 或 $f$ 在 $x$ 的输出值。
+    + `定义: 从集合`$\color{#E87631}{\large D}$`到集合`$\color{#E87631}{\large Y}$
+      `的函数是一个对应规则, 对于每个元素`$\color{#E87631}{\large x \in D}$
+      `确定唯一的(单个)元素`$\color{#E87631}{\large f(x) \in Y}$. 
     + 所有可能输入值的集合 $D$ 称为函数的**定义域**，当 $x$ 取遍 $D$ 中的元素时，$f(x)$
       的所有值的集合称为函数的**值域**。 值域可能并不包含集合 $Y$ 中的每一个元素。函数的
       定义域和值域可以为任何对象的集合，不过在微积分中它们通常是解释为坐标轴上点的实数集合。
@@ -120,7 +122,6 @@
 - 在微积分中经常会遇到一些重要的函数类型, 我们在这一小节对函数类型加一区分, 并且对他们作简要
   描述.
 1. **线性函数 (Linear Functions)**
-    
     + 形式为 $f(x) = mx + b$ 的函数称为 **线性函数**, 其中 $m$ 和 $b$ 为常数. 图 
       1.12a 表示一组直线 $f(x) = mx$, 其中 $b = 0$, 所以这些直线通过原点, 函数 
       $f(x) = x$ 称为**恒等函数**, 其中 $m = 1, b=0$. 常值函数是斜率 $m = 0$ 时的
@@ -128,18 +129,17 @@
       具有正斜率的线性函数（其图形通过原点）称为比例关系。
     + <img src="../images/1.14.png" 
             style="display: block; margin-left: 0; width: 90%;">
-    + > 定义: 说 2 个变量 (相互) 成比例, 是指一个变量总是等于另一个变量的常数倍; 也就是说,
-      对于某个非零常数 $k, y = kx$.  
+    + `定义: 说两个变量 (相互) 成比例, 是指一个变量总是等于另一个变量的常数倍; 也就是说,对于某个非零常数`
+      $\color{#E87631}{\large k, y = kx}$.  
 1. **幂函数 (Power Functions) **
-    
-    + > 幂函数: 一般地，函数 $f(x) = x^a$ 叫做 "幂函数", 其中 $x$ 是自变量$a$ 是常数。
+    + `一般地, 函数` $\color{#E87631}{f(x) = x^a}$ `叫做幂函数, 其中 x 是自变量 a 是常数.`
     + **(a)** $a = n$, $n$ 是正整数 (positive integer)
         - $f(x) = x^n \quad (n = 1, 2, 3, 4, 5)$ 的图形显示在图 1.15 中. 这些函数
           是对 $x$ 的全部实数值定义的, 请注意, 当幂 $n$ 增大时, 曲线在区间 $(-1, 1)$ 
           上平缓地向 $x$ 轴靠近, 对于 $|x|$ > 1, 曲线则更陡峭地提升. 每条曲线都经过点 
           (1, 1) 和原点.
         - <img src="../images/power-function-1.png" 
-            style="display: block; margin-left: 0; width: 90%;">
+            style="display: block; margin-left: 0; width: 100%;">
     + **(b)** $a = -1$ 或者 $a = -2$
         - 函数 $f(x) = x^{-1} = \frac{1}{2}$ 和 $g(x) = x^{-2} = \frac{1}{x^2}$
           的图形显示在图 1.16 中. 这两个函数是对所有 $x\neq{0}$ 定义的 (绝不能用 0 作除数).
@@ -154,19 +154,30 @@
           的图形显示在图 1.17 中. (观察 $x^{3/2} = (x^{1/2})^3$, 
           $x^{2/3} = (x^{1/3})^2$)
         - <img src="../images/power-function-3.png" 
-            style="display: block; margin-left: 0; width: 90%;">
-1. **多项式 (Polynomials) **
-1. **有理函数 (Rational Functions) **
-1. **代数函数 (Algebraic Functions) **
+            style="display: block; margin-left: 0; width: 100%;">
+1. **多项式 (Polynomials)**
+1. **有理函数 (Rational Functions)**
+1. **代数函数 (Algebraic Functions)**
 1. **三角函数 (Trigonometric Functions)**
-1. **指数函数 (Exponential Functions)  **
-1. **对数函数 (Logarithmic Functions) **
+1. **指数函数 (Exponential Functions)**
+1. **对数函数 (Logarithmic Functions)**
+    + 底为 a 的对数函数
+        - 底为 $a$ 的对数函数 $y = log_a{x}$ 是底为 $a$ 的指数函数 $y = a^x$
+          ($a>0, a \neq 1$) 的反函数。
+            + $log_a{x}$ (Read: 以 $a$ 为底 $x$ 的对数) 的定义域是 $a^x$ 的值域 
+              $(0, +\infty)$. $log_a{x}$ 的值域是 $a^x$ 的定义域 $(-\infty, \infty)$.
+            + 因为我们无法从方程 $y = a^x$ 按 $y$ 解出 $x$, 对数函数作为 $x$
+              的函数没有显示公式。但是 $y = log_a{x}$ 的图形可以从 $y = a^x$
+              的图形关于直线 $y = x$反射得到。(下图)  
+              <img src="../images/logarithm-graph.png" 
+                style="margin-left:0; width:46%;">  
 1. **超越函数 (Transcendental Functions)** 
 #### 1.1.7 增函数与减函数
-#### 1.1.8 偶函数与奇函数: 函数的对称性 
-- > 定义: 对于函数 $y = f(x)$ 的定义域中的每个 $x$, 如果有 $f(-x)$ = $f(x)$, 那么 
-  $f$ 称为 $x$ 的偶函数; 如果 $f(-x)$ = $-f(x)$, 那么 $f$ 称为 $x$ 的奇函数.
- - 对称性:
+#### 1.1.8 偶函数与奇函数: 函数的对称性
+- $\color{#E87631}{\large 定义: 对于函数 \; y = f(x) \; 的定义域中的每个 \; x,}$
+  $\color{#E87631}{\large 如果有 \; f(-x) = f(x),  那么 \; f \; 称为 \; x \; 的偶函数;}$
+  $\color{#E87631}{\large 如果有 \; f(-x) = -f(x), 那么 \; f \; 称为 \; x \; 的奇函数.}$ 
+- 对称性:
     + 偶函数的图形是关于 $y$ 轴对称的。
     + 奇函数的图形是关于原点对称的。(Tip: 图形关于原点对称，如果把该图形绕原点转
         $180^\circ$，仍保持图形不变。) 
@@ -195,15 +206,12 @@
 #### 1.2.1 函数的和, 差, 积, 商
 #### 1.2.2 复合函数
 - 复合函数是另外一种组合函数的方法:
-    + `定义: 设` $\color{#e7691e}{f, g}$ `是函数, 复合函数` 
-      $\color{#e7691e}{f \circ g}$ `(` $\color{#e7691e}{f}$ `与` 
-      $\color{#e7691e}{g}$ `复合) 由`
+    + $\color{#E87631}{\large 定义: 设 \;f, \;g \; 是函数, 复合函数 \; f \circ g \; (f \; 与 \; g \; 复合)}$
       $$
-        \color{#e7691e}{(f \circ g)(x) = f(g(x))}
+        \color{#E87631}{(f \circ g)(x) = f(g(x))}
       $$
-      `定义`, $\color{#e7691e}{f \circ g}$ `的定义于是由` $\color{#e7691e}{g}$ 
-      `的定义域中那些使` $\color{#e7691e}{g(x)}$`位于` $\color{#e7691e}{f}$ 
-      `的定义域内的数` $\color{#e7691e}{x}$ `组成.`
+      $\color{#E87631}{\large 由定义, \;f \circ g \; 的定义是由 \; g \; 的定义域中那些使 }$
+      $\color{#E87631}{\large \; g(x) \; 位于 \; f  \; 的定义域内的数 \; x \; 组成.}$
     + (DEFINITION: If $f$ and $g$ are functions, the **composite** function 
       $f\circ{g}$ ($f$ composed with $g$) is defined by
       $$
@@ -211,21 +219,21 @@
       $$
       The domain of $f\circ{g}$ consists of the numbers $x$ in the domain of 
       $g$ for which $g(x)$ lies in the domain of $f$;)
-- 这个定义表明, 只有当 g 的定义域位于 f 的定义域内时, 才能构成复合函数 $f \circ g$. 为了
-  求 $(f\circ{g})(x)$, 需要首先求 $g(x)$, 然后再求 $f(g(x))$. 图 1.27 把
-  $f\circ{g}$ 表示成一个机器图, 而图 1.28 则把这个函数复合表示成箭头图.
-- <img src="../images/1.27-28.png" 
-                style="display:block; margin-left:0; width:100%;">
-    + Figure 1.27: 复合函数 $f\circ{g}$ 使用第一函数 $g$ 的输出 $g(x)$ 作为第二函数
-      $ƒ$ 的输入。 -- <Tomas_Calculus 13th>
+- 这个定义表明, 只有当 $g$ 的定义域位于 $f$ 的定义域内时, 才能构成复合函数 $f \circ g$.
+  为了求 $(f\circ{g})(x)$, 需要首先求 $g(x)$, 然后再求 $f(g(x))$. 图 1.27
+  把 $f\circ{g}$ 表示成一个机器图, 而图 1.28 则把这个函数复合表示成箭头图.  
+  <img src="../images/1.27-28.png" 
+    style="margin-left:0; width:100%; border: 1px solid #eee;">
+    + Figure 1.27: 复合函数 $f\circ{g}$ 使用第一函数 $g$ 的输出 $g(x)$
+      作为第二函数 $ƒ$ 的输入。 -- <Tomas_Calculus 13th>
     + 图1.27 两个函数可以在这样的 $x$ 点复合, 只要一个函数在 $x$ 的值位于另一个
       函数的定义域内; 这个函数复合用 $f\circ{g}$ 表示. --<托马斯大学微积分>
-    + Figure 1.28 $f$与$g$复合的箭头图. 如果 $x$ 位于 $g$ 的作用域中, 并且 $g(x)$ 
-      位于 $f$ 的作用域中, 那么函数 $f$ 和 $g$ 可以组成 $(f \circ g)(x)$   
-      -- <Tomas Calculus> 13th <br/>
-      (Arrow diagram for $f\circ{g}$. If $x$ lies in the domain of $g$ and 
-      $g(x)$ lies in the domain of $f$, then the functions $f$ and $g$ can be
-      composed to form $(f \circ g)(x)$. )
+    + Figure 1.28 $f$ 与 $g$ 复合的箭头图. 如果 $x$ 位于 $g$ 的作用域中,
+      并且 $g(x)$ 位于 $f$ 的作用域中, 那么函数 $f$ 和 $g$ 可以组成 $(f \circ g)(x)$
+      -- <Tomas Calculus> 13th  
+      (Arrow diagram for $f\circ{g}$. If $x$ lies in the domain of $g$
+      and $g(x)$ lies in the domain of $f$, then the functions $f$ and $g$
+      can be composed to form $(f \circ g)(x)$. )
 - 为了计算复合函数 $g\circ{f}$ (当有定义时), 首先求 $f(x)$, 然后求 $g(f(x))$. 
   $g \circ{f}$ 的定义域是 $f$ 的定义域中那些使 $f(x)$ 处于 $g$ 的定义域中的数 $x$ 的
   集合. <br/>
@@ -352,15 +360,3 @@
 #### 1.5.7 反三角函数
 #### 1.5.8 反正弦函数与反余弦函数
 
-
-
-#### 1.5.1 底为 a 的对数函数
-- 底为 $a$ 的对数函数 $y = log_a{x}$ 是底为 $a$ 的指数函数 $y = a^x$ 
-  ($a>0, a\neq 1$) 的反函数。
-    + $log_a{x}$(Read: 以 $a$ 为底 $x$ 的对数) 的定义域是 $a^x$ 的值域 
-      $(0, +\infty)$. $log_a{x}$ 的值域是 $a^x$ 的定义域 $(-\infty, \infty)$.
-    + 因为我们无法从方程 $y = a^x$ 按 $y$ 解出 $x$, 对数函数作为 $x$ 的函数没有显示
-      公式。但是 $y = log_a{x}$ 的图形可以从 $y = a^x$ 的图形关于直线 $y = x$
-      反射得到。(下图)<br/>
-      <img src="../images/logarithm-graph.png" 
-            style="display:block; margin-left:0; width:46%;">  
