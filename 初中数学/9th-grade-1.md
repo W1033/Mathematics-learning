@@ -87,7 +87,7 @@
 ### 第 21 章: 二次根式
 - 21.1 二次根式 (2)
     + <img src="./images-9th-1/QQ20200202-194235@2x.png"
-        style="width: 90%; margin-left: 0; border: 1px solid #cacaca;">  
+        style="width: 76%; margin-left: 0; border: 1px solid #cacaca;">  
       人造地球卫星要冲出地球, 围绕地球运动, 发射时就必须达到一定的速度, 
       这个速度称为第一宇宙速度. 计算第一宇宙速度的公式是:
       $$
@@ -126,8 +126,8 @@
         - 公式(3)也可写成: $\color{#E87631}{\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}} \quad (a \geq 0, \; b > 0)}$  
           **商的算术平方根, 等于两个算术平方根的商.**
         - **最简二次根式:**
-            + <img src="./images-9th-1/02.png" style="width: 90%; margin-left:0">  
-              <img src="./images-9th-1/04.png" style="width: 90%; margin-left:0">  
+            + <img src="./images-9th-1/02.png" style="width: 76%; margin-left:0">  
+              <img src="./images-9th-1/04.png" style="width: 76%; margin-left:0">  
               按照例2 和例4 的要求, `化简后的二次根式被开方数中不含分母, 并且被开方数中所有因数(或因式)的幂的指数都小于2, 像这样的二次根式称为最简二次根式.` 
 - 21.3 二次根式的加减 (10)
     + **概括**
