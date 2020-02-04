@@ -86,8 +86,9 @@
 ## 内容(Content)
 ### 第 21 章: 二次根式
 - 21.1 二次根式 (2)
+    
     + <img src="./images-9th-1/QQ20200202-194235@2x.png"
-        style="width: 76%; margin-left: 0; border: 1px solid #eee;">  
+        style="width: 66%; margin-left: 0; border: 1px solid #eee;">  
       人造地球卫星要冲出地球, 围绕地球运动, 发射时就必须达到一定的速度, 
       这个速度称为第一宇宙速度. 计算第一宇宙速度的公式是:
       $$
@@ -126,8 +127,8 @@
         - 公式(3)也可写成: $\color{#E87631}{\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}} \quad (a \geq 0, \; b > 0)}$  
           **商的算术平方根, 等于两个算术平方根的商.**
         - **最简二次根式:**
-            + <img src="./images-9th-1/02.png" style="width: 76%; margin-left:0; border:1px solid #eee;">  
-              <img src="./images-9th-1/04.png" style="width: 76%; margin-left:0; border:1px solid #eee;">  
+            + <img src="./images-9th-1/02.png" style="width: 66%; margin-left:0; border:1px solid #eee;">  
+              <img src="./images-9th-1/04.png" style="width: 66%; margin-left:0; border:1px solid #eee;">  
               按照例2 和例4 的要求, `化简后的二次根式被开方数中不含分母, 并且被开方数中所有因数(或因式)的幂的指数都小于2, 像这样的二次根式称为最简二次根式.` 
 - 21.3 二次根式的加减 (10)
     + **概括**
@@ -136,7 +137,7 @@
         - 二次根式的加减, 与整式的加减类似, 关键是将同类二次根式合并.
         - 例如:  
           <img src="./images-9th-1/QQ20200202-221250@2x.png" 
-            style="width: 90%; margin-left:0; border: 1px solid #eee;">
+            style="width: 70%; margin-left:0; border: 1px solid #eee;">
 - 21.4 小结 (13)
 - 21.5 复习题 (15)
 ### 第 22 章: 一元二次方程
@@ -171,11 +172,11 @@
         - **例1** 解下列方程:
             + (1) $x^2 - 2 = 0$. $\quad$ (2) $16x^2 - 25 = 0$
             + <img src="./images-9th-1/QQ20200203-191033@2x.png" 
-                style="width: 66%; margin-left:0; border:1px solid #eee;">
+                style="width: 60%; margin-left:0; border:1px solid #eee;">
         - **例2** 解下列方程:
             + (1) $3x^2 + 2x = 0$. $\quad$ (2) $x^2 = 3x$.
             + <img src="./images-9th-1/QQ20200203-192106@2x.png"
-                 style="width: 66%; margin-left:0; border:1px solid #eee;">
+                 style="width: 60%; margin-left:0; border:1px solid #eee;">
         - **读一读: 什么时候两数的乘积为零** -- 谈谈因式分解法解方程的依据
             + 用因式分解法解一元二次方程时, 我们现将左边化为 2 个一次因式的乘积, 
               右边是 0 的形式, 如 "试一试" 中的 $(x - 1)(x + 1) = 0$; 
@@ -196,14 +197,14 @@
     + 22.2.2 配方法 (25)
         - **例(4)** 解方程: $x^2 + 2x = 5$.
             + <img src="./images-9th-1/WX20200203-212959@2x.png"
-                style="margin-left: 0; width: 90%; border: 1px solid #eee;">
+                style="margin-left: 0; width: 80%; border: 1px solid #eee;">
         - **`配方法`**: 这里的解法，是通过方程的简单变形，`将左边配成个含有未知数的完全平方式`,
           `右边是一个非负常数，从而可以直接开平方求解。这种解一元二次方程的方法叫做配方法`.  
           (**提示: 一般情况下一元二次方程`不能使用 因式分解法 的时候才会考虑 配方法`.**)
         - **例(5)** 用配方法解方程:
             + (1) $x^2 - 4x + 1 = 0$; $\quad$ (2) $4x^2 - 12x - 1 = 0$.  
               <img src="./images-9th-1/WX20200203-220947@2x.png"
-                style="margin-left: 0; width: 100%; border: 1px solid #eee;">
+                style="margin-left: 0; width: 80%; border: 1px solid #eee;">
             + 配方时, 方程两边同时加上的数是如何确定的? (即: 配方法的一般步骤是:)
                 - (1) 方程两边同时除以二次项系数, 将二次项系数化为 1.
                   (Tip: 例(5) 的第 (2) 个示例中, 两边同时除以 4 使 $4x^2$ 变成 $x^2$)
@@ -257,11 +258,11 @@
             + (1) $2x^2 + x - 6 = 0$; $\quad$ (2) $x^2 + 4x = 2$;  
               (3) $5x^2 - 4x - 12 = 0$; $\quad$ (4) $4x^2 + 4x + 10 = 1 - 8x$.
             + <img src="./images-9th-1/QQ20200204-115942@2x.png"
-                style="margin-left: 0; width: 90%; border: 1px solid #eee;">
+                style="margin-left: 0; width: 80%; border: 1px solid #eee;">
     + 22.2.4 一元二次方程根的判别式 (31)
         
         - <img src="./images-9th-1/QQ20200204-121600@2x.png"
-                style="margin-left: 0; width: 90%; border: 1px solid #eee;">
+                style="margin-left: 0; width: 80%; border: 1px solid #eee;">
         - **概括**:
             + 这里的 $\color{#E87631}{b^2 - 4ac}$ 叫做一元二次方程**`根的判别式`**,
               通常用符号 $\color{#E87631}{\Delta}$ 来表示,
