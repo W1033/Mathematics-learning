@@ -259,6 +259,7 @@
             + <img src="./images-9th-1/QQ20200204-115942@2x.png"
                 style="margin-left: 0; width: 90%; border: 1px solid #eee;">
     + 22.2.4 一元二次方程根的判别式 (31)
+        
         - <img src="./images-9th-1/QQ20200204-121600@2x.png"
                 style="margin-left: 0; width: 90%; border: 1px solid #eee;">
         - **概括**:
@@ -274,8 +275,9 @@
               $\quad$ (3) $4(y^2 + 1) - y = 0.$
             + 解: 略 (注: 只需判断 $\Delta$ $> 或 = 或 <$ 0 即可)
     + 22.2.5 一元二次方程的根与系数的关系 (33)
+        
         - <img src="./images-9th-1/QQ20200204-191948@2x.png"
-                style="margin-left: 0; width: 76%; border: 1px solid #eee;">
+                style="margin-left: 0; width: 70%; border: 1px solid #eee;">
         - **概括:**
             + 二次项系数为 1 的一元二次方程根与系数的关系:  
               设一元二次方程 $x^2 + px + q = 0$ 的两根为 $x_1, x_2$, 那么
