@@ -127,8 +127,7 @@
       $f(x) = x$ 称为**恒等函数**, 其中 $m = 1, b=0$. 常值函数是斜率 $m = 0$ 时的
       函数 (见图 1.12b). 具有正斜率和图形通过原点的线性函数称为比例关系. 
       具有正斜率的线性函数（其图形通过原点）称为比例关系。
-    + <img src="../images/1.14.png" 
-            style="display: block; margin-left: 0; width: 90%;">
+      <img src="../images/1.14.png" style="margin-left: 0; width: 90%;">
     + `定义: 说两个变量 (相互) 成比例, 是指一个变量总是等于另一个变量的常数倍; 也就是说,对于某个非零常数`
       $\color{#E87631}{\large k, y = kx}$.  
 1. **幂函数 (Power Functions) **
@@ -137,24 +136,24 @@
         - $f(x) = x^n \quad (n = 1, 2, 3, 4, 5)$ 的图形显示在图 1.15 中. 这些函数
           是对 $x$ 的全部实数值定义的, 请注意, 当幂 $n$ 增大时, 曲线在区间 $(-1, 1)$ 
           上平缓地向 $x$ 轴靠近, 对于 $|x|$ > 1, 曲线则更陡峭地提升. 每条曲线都经过点 
-          (1, 1) 和原点.
-        - <img src="../images/power-function-1.png" 
-            style="display: block; margin-left: 0; width: 100%;">
+          (1, 1) 和原点.  
+          <img src="../images/power-function-1.png" 
+            style="margin-left: 0; width: 100%;">
     + **(b)** $a = -1$ 或者 $a = -2$
         - 函数 $f(x) = x^{-1} = \frac{1}{2}$ 和 $g(x) = x^{-2} = \frac{1}{x^2}$
           的图形显示在图 1.16 中. 这两个函数是对所有 $x\neq{0}$ 定义的 (绝不能用 0 作除数).
           $y = \frac{1}{x}$ 的图形是双曲线 $xy = 1$, 曲线在远离原点是趋近坐标轴. 
-          $y = \frac{1}{x^2}$ 的图形也趋近坐标轴.
-        - <img src="../images/power-function-2.png" 
-            style="display: block; margin-left: 0; width: 70%;">
+          $y = \frac{1}{x^2}$ 的图形也趋近坐标轴.  
+          <img src="../images/power-function-2.png" 
+            style="margin-left: 0; width: 70%;">
     + **(c)** $a = \frac{1}{2}, \frac{1}{3}, \frac{3}{2}, \frac{2}{3}$
         - 函数 $f(x) = x^{1/2} = \sqrt{x}$ 和 $g(x) = x^{1/3} = \sqrt[3]{x}$ 
           分别是**平方根**函数 和 **立方根**函数. 平方根函数的定义域是 $[0, \infty)$,
           立方根函数是对全部实数定义的. 它们的图形以及 $y = x^{3/2}$ 和 $y = x^{2/3}$
           的图形显示在图 1.17 中. (观察 $x^{3/2} = (x^{1/2})^3$, 
-          $x^{2/3} = (x^{1/3})^2$)
-        - <img src="../images/power-function-3.png" 
-            style="display: block; margin-left: 0; width: 100%;">
+          $x^{2/3} = (x^{1/3})^2$)  
+          <img src="../images/power-function-3.png" 
+            style="margin-left: 0; width: 100%;">
 1. **多项式 (Polynomials)**
 1. **有理函数 (Rational Functions)**
 1. **代数函数 (Algebraic Functions)**
@@ -180,25 +179,33 @@
 - 对称性:
     + 偶函数的图形是关于 $y$ 轴对称的。
     + 奇函数的图形是关于原点对称的。(Tip: 图形关于原点对称，如果把该图形绕原点转
-        $180^\circ$，仍保持图形不变。) 
+      $180^\circ$，仍保持图形不变。) 
     + Tip: 根据下面的图形可以看出来，不管奇函数还是偶函数"定义域都是关于原点对称"。  
 - 图形如:
     + <img src="../images/even-odd-function-graph.png" 
-            style="display:block;margin-left:0; width:50%;">
+            style="margin-left:0; width:50%;">
     + symmetric [si'metrik] --adj.对称的，匀称的 
 - 如何确定一个函数是奇函数还是偶函数? :
-    + A: 欧拉曾提出过 "指数为偶数的幂函数为偶函数，指数为奇数的幂函数为奇函数。"。
-        下面这个回答来自知乎: 指数为整数幂，指数的奇偶性和函数的奇偶性保持一致。指数为分数，
-        先话为根式的形式，在判断奇偶性。<br/>
+    + A: 欧拉曾提出过 "指数为偶数的幂函数为偶函数, 指数为奇数的幂函数为奇函数."  
+        下面这个回答来自知乎: 指数为整数幂，指数的奇偶性和函数的奇偶性保持一致. 指数为分数,
+        先化为根式的形式，在判断奇偶性.   
         所有函数奇偶性的判断，都是: 
         - (1) 先看定义域是否关于原点对称，如果不对称，则非奇非偶，
         - (2) 如果对称，若 $f(-x) = f(x)$ 为偶函数，若 $f(-x) = -f(x)$ 为奇函数。
     + E.g: $f(x) = ax^2 + bx + 3a + b$ 是偶函数，定义域 $[a-1, 2a]$ 
         求 a=__ b=__ ?
-    + 答: 因为说函数是偶函数，那么函数的指数就不存在奇数的情况，但是目前 $f(x) =$
-        $ax^2 + bx^1 + 3ax^0 + bx^0$, 中，存在 $bx^1$，所以此项一定等于 0，那么就
-        得到 $b = 0$; 再有不管函数是奇函数还是偶函数，定义域一定是关于原点对称的，
-        所以 $a-1 = -2a$ $\Rightarrow$ $a = \frac{1}{3}$  
+        - 答: 
+            + 第 (1) 种解答: $f(x)$ 是偶函数, 定义域 $[a-1, 2a]$ 关于原点对称,
+              那么 $a-1 + 2a = 0$, $\;$ $a = \frac{1}{3}$.  
+              $f(x) = \frac{1}{3}x^2 + bx + b + 1$, $f(x)$ 为偶函数, 那么
+              $f(-x)= f(x)$, 则
+              $\frac{1}{3}x^2 - bx + b + 1 = \frac{1}{3}x^2 + bx + b + 1$
+              所以 $2bx = 0$, 因为 $x$ 为变量, 则 $b = 0$.
+            + 第 (2) 种解答: 因为说函数是偶函数，那么函数的指数就不存在奇数的情况,
+              但是目前 $f(x) = ax^2 + bx^1 + 3ax^0 + bx^0$, 中存在 $bx^1$,
+              所以此项一定等于 0，那么就得到 $b = 0$; 不管函数是奇函数还是偶函数,
+              定义域一定是关于原点对称的，所以
+              $a-1 = -2a$ $\Rightarrow$ $a = \frac{1}{3}$  
 #### 习题 1.1 
 
 
@@ -222,8 +229,7 @@
 - 这个定义表明, 只有当 $g$ 的定义域位于 $f$ 的定义域内时, 才能构成复合函数 $f \circ g$.
   为了求 $(f\circ{g})(x)$, 需要首先求 $g(x)$, 然后再求 $f(g(x))$. 图 1.27
   把 $f\circ{g}$ 表示成一个机器图, 而图 1.28 则把这个函数复合表示成箭头图.  
-  <img src="../images/1.27-28.png" 
-    style="margin-left:0; width:100%; border: 1px solid #eee;">
+  <img src="../images/1.27-28.png" style="border: 1px solid #eee;">
     + Figure 1.27: 复合函数 $f\circ{g}$ 使用第一函数 $g$ 的输出 $g(x)$
       作为第二函数 $ƒ$ 的输入。 -- <Tomas_Calculus 13th>
     + 图1.27 两个函数可以在这样的 $x$ 点复合, 只要一个函数在 $x$ 的值位于另一个
@@ -235,8 +241,8 @@
       and $g(x)$ lies in the domain of $f$, then the functions $f$ and $g$
       can be composed to form $(f \circ g)(x)$. )
 - 为了计算复合函数 $g\circ{f}$ (当有定义时), 首先求 $f(x)$, 然后求 $g(f(x))$. 
-  $g \circ{f}$ 的定义域是 $f$ 的定义域中那些使 $f(x)$ 处于 $g$ 的定义域中的数 $x$ 的
-  集合. <br/>
+  $g \circ{f}$ 的定义域是 $f$ 的定义域中那些使 $f(x)$ 处于 $g$ 的定义域中的数 $x$
+  的集合.  
   (To evaluate the composite function $g\circ{f}$ (when defined),we find$f(x)$
   first and then $g(f(x)$). The domain of $g\circ{f}$ is the set of numbers 
   $x$ in the domain of $f$ such that $f(x)$ lies in the domain of $g$.)
@@ -244,7 +250,7 @@
   $g\circ{f}$ are usually quite different.)
 #### 1.2.3 移动函数图形 (Shifting a Graph of a Function)
 - 从现有的函数产生新函数另外一种方法是对现有函数的每个输出值或者对他的输入变量, 增加一个常数.
-  新函数图形是原函数图形作如下垂直移动或者水平移动后的图形.
+  新函数图形是原函数图形作如下垂直移动或者水平移动后的图形.  
   (A common way to obtain a new function from an existing one is by adding a 
   constant to each output of the existing function, or to its input variable. 
   The graph of the new function is the graph of the original function shifted
@@ -262,7 +268,7 @@
           $\color{#e7691e}{y = f(x - |h|)}$
 - 例如(图): 
   <img src="../images/1.30-31.png" 
-		style="display:block; margin-left:0; width:90%;"> 
+		style="margin-left:0; width:90%;"> 
 #### 1.2.4  改变函数图形标度与反射函数图形
 - 改变函数 $y = f(x)$ 的图形标度就是在垂直方向或者水平方向拉长或压缩图形. 改变图形标度的方法
   是对函数 $f$ 或自变量 $x$ 乘以一个响应的常数 $c$. 通过坐标轴反射图形是取 $c=-1$ 的特例.
@@ -277,13 +283,13 @@
 		- $y = f(-x)$` 通过` $y$ `轴反射` $f$ `的图形`
 - **例 4** 改变 $y = \sqrt{x}$ 的图形标度和反射图形
 	+ (a), (b), (c)
-	+ <img src="../images/1.32-34.png" 
-		style="display:block; margin-left:0; width:90%;"> 
+ 	  <img src="../images/1.32-34.png" 
+		style="margin-left:0; width:90%;"> 
 - **例 5** 给定函数 $f(x) = x^4 - 4x^2 + 10$ (见图 1.35a), 求压缩图形和反射图形的公式:
 	+ (a) 按系数 2 水平压缩图形, 再通过 $y$ 轴反射图形 (见图 1.35b).	
 	+ (b) 按系数 2 垂直压缩图形, 再通过 $x$ 轴反射图形 (见图 1.35c).
-	+  <img src="../images/1.35.png" 
-		style="display:block; margin-left:0; width:100%;"> 
+	  <img src="../images/1.35.png" 
+		style="margin-left:0; width:100%;"> 
 #### 1.2.5 椭圆 (P17)
 - 在数学中椭圆是平面到两个固定点的距离之和为常数的点之轨迹.
 #### 习题 1.2
@@ -302,52 +308,52 @@
 ## 1.4 指数函数 (Exponential Functions)
 #### 1.4.1 指数函数的性质 (定义):
 - 设 $a$ 是不等于 1 的正实数，函数 $f(x) = a^x$ (即: $a > 0$ 且 $a \neq 1$)
-    是 **底为 $a$ 的指数函数** （Tip: $a$ 为基底，$x$ 为指数）
-    <img src="../images/exponential-shuxuele.png" 
-        style="display:block; margin-left:0; width:70%;">
-- $f(x) = a^x$的定义域是($-\infty$, $\infty$) 而值域是(0, $\infty$). 若
-    a > 1, 指数函数的图形看起来像是增函数; 若 0 < 0 < 1 图形看起来像减函数
-    <img src="../images/exponential-functions.png" 
-        style="display:block; margin-left:0; width:60%;">  
+  是 **底为 $a$ 的指数函数** （Tip: $a$ 为基底，$x$ 为指数）
+  <img src="../images/exponential-shuxuele.png" 
+        style="margin-left:0; width:70%;">
+- $f(x) = a^x$的定义域是($-\infty$, $\infty$) 而值域是(0, $\infty$).
+  若 a > 1, 指数函数的图形看起来像是增函数; 若 0 < 0 < 1 图形看起来像减函数  
+  <img src="../images/exponential-functions.png" 
+        style="margin-left:0; width:60%;">  
 #### 1.4.2 自然指数函数 $\color{orange}{e^x}$:
 - 对自然、物理和经济现象的建模中用到的最重要的指数函数是**自然指数函数**，它的基底是著名
     的数 $e$, 精确到 9 位小数时是 2.718281828. 我们可以把 $e$ 定义为函数 
     $f(x) = (1 + \frac{1}{x})^x$ 当 $x$ 无穷增大时的极限。
     <img src="../images/e-function-limited.png" 
-            style="display:block; margin-left:0; width:60%;">
+        style="margin-left:0; width:60%;">
 - 图 27 $\quad$ $f(x) = (1 + \frac{1}{x})^x$ 的图形和数值列表都暗示当 
     $x \to \infty$ 时, $f(x) \to e \approx 2.718$
-- 指数函数 $y = e^{kx}$，其中 $k$ 是一个非零常数，常被用作指数增长或衰减的模型，作为
-    指数增长的一个例子，连续复利，就用到了模型 $y = P \cdot e^{rt}$ 其中 P 是初始投资，
-    $r$ 是小数表示的利率，$t$ 是按年计的时间。指数衰减的一个例子是模型 
-    $y = A \cdot e^{-1.2 \times 10^4} t$, 这表示放射性元素碳 -14 是怎样随时间衰减
-    的。 这里 $A$ 是碳 -14 一开始的含量，$t$ 是按年计的时间。 碳-14 衰减被用来测量诸如
-    贝壳、种子和木制手工艺品等的死亡计提残留物的年代。
+- 指数函数 $y = e^{kx}$, 其中 $k$ 是一个非零常数，常被用作指数增长或衰减的模型,
+  作为指数增长的一个例子, 连续复利, 就用到了模型 $y = P \cdot e^{rt}$ 其中 P 是初始投资，
+  $r$ 是小数表示的利率，$t$ 是按年计的时间。指数衰减的一个例子是模型
+  $y = A \cdot e^{-1.2 \times 10^4} t$, 这表示放射性元素碳 -14 是怎样随时间衰减的.
+  这里 $A$ 是碳 -14 一开始的含量，$t$ 是按年计的时间.
+  碳-14 衰减被用来测量诸如贝壳、种子和木制手工艺品等的死亡计提残留物的年代。
 #### 1.4.3 指数增长、指数衰减:
 
 
 ## 1.5 反函数(Inverse Function) 和 对数函数(Logarithmic Functions)
 #### 1.5.1 一对一函数:
 - 函数 $f(x)$ 在定义域 D 上是一对一的，若每当 $a \neq b$ 时 $f(a) \neq f(b)$.
-- 一对一函数 $y = f(x)$ 的图形与任何水平直线相交至多一次 (水平直线法则). 如果它与水平
-    直线相交多于 2 次，即它取同一个 $y$ 值多于一次的话，那么该函数不是一对一的。(图 30)
-- <img src="../images/one-to-one-functions.png" 
-        style="display:block; margin-left:0; width:50%;">
+- 一对一函数 $y = f(x)$ 的图形与任何水平直线相交至多一次 (水平直线法则).
+  如果它与水平直线相交多于 2 次, 即它取同一个 $y$ 值多于一次的话，那么该函数不是一对一的. (图 30)
+  <img src="../images/one-to-one-functions.png" 
+        style="margin-left:0; width:50%;">
 - One-to-one: Graph meets each horizontal line at most once. 
     图形与每条水平线直线只交一次。
 - Not one-to-one: Graph meets one or more horizontal lines more than once.
     非一对一: 图形与某些水平线相交多于一次。   
 #### 1.5.2 反函数:
-- 因为一对一函数的每个输出只来自一个输入，所以一对一函数可以反过来看做是把输出送回到它们所
-    来自的输入。由逆转一对一函数的定义域和值域定义的函数就是 $f$ 的反函数。反函数 $f$ 的
-    记号是 $f^-1$,读作 "$f$逆"。$f^1$ 中的 -1 不是指数； $f^{-1}(x)$ 的意思也不是 
-    $\frac{1}{f(x)}$
+- 因为一对一函数的每个输出只来自一个输入，所以一对一函数可以反过来看做是把输出送回到它们所来自的输入.
+  由逆转一对一函数的定义域和值域定义的函数就是 $f$ 的反函数。反函数 $f$ 的记号是
+  $f^-1$,读作 "$f$逆"。$f^1$ 中的 -1 不是指数； $f^{-1}(x)$ 的意思也不是
+  $\frac{1}{f(x)}$.
 - 反函数对:
-    + 函数 $f$ 和 $g$ 是反函数对，当且仅当 $f(g(x)) = x$ 并且 $g(f(x)) = x$. 
-        这时, $g = f^{-1}$ 而且 $f=g^{-1}$
+    + 函数 $f$ 和 $g$ 是反函数对，当且仅当 $f(g(x)) = x$ 并且 $g(f(x)) = x$. 这时,
+      $g = f^{-1}$ 而且 $f=g^{-1}$.
     + 反函数关于 $y = x$ 对称。
-    + <img src="../images/inverse-functions.png" 
-            style="display:block; margin-left:0; width:40%;">
+      <img src="../images/inverse-functions.png" 
+            style="margin-left:0; width:40%;">
 #### 1.5.3 求反函数:
 - 注: 把$f^{-1}$ 写作 $x$ 的函数
 - 第 1 步: 借助 $y$ 对  $x$ 解方程 $y = f(x)$.
