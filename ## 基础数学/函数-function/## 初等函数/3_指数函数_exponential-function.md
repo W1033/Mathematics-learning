@@ -21,8 +21,8 @@
 - 见: `../高中数学/必修1.md`
 
 ### 2. 指数函数及其性质
-- $\color{red}{指数函数 (exponential function)}$: 一般地, 函数 
-  $y = a^x (a > 0, 且 a \not= 1)$ 叫做 "指数函数 (exponential function)", 
-  其中 底数 $a$ 为常数, 指数 $x$ 为自变量, 函数的定义域是 $R$.     
+- 一般地, 函数 $y = a^x (a > 0, 且 a \not= 1)$ 叫做
+  `指数函数(exponential function)`, 其中 底数 $a$ 为常数, 指数 $x$ 为自变量,
+  函数的定义域是 $R$.     
 
 

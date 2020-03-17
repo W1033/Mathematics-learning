@@ -8,15 +8,15 @@
     + 1.1.4 分段定义的函数
     + 1.1.5 垂直线检验法
     + 1.1.6 函数类型
-        - (1) `线性函数 (Linear Functions)`
-        - (2) `幂函数 (Power Functions)`
+        - (1) `线性函数 (Linear functions)`
+        - (2) `幂函数 (Power functions)`
         - (3) `多项式 (Polynomials)`
-        - (4) `有理函数 (Rational Functions)`
-        - (5) `代数函数 (Algebraic Functions)`
-        - (6) `三角函数 (Trigonometric Functions)`
-        - (7) `指数函数 (Exponential Functions)`
-        - (8) `对数函数 (Logarithmic Functions)`
-        - (9) `超越函数 (Transcendental Functions)`
+        - (4) `有理函数 (Rational functions)`
+        - (5) `代数函数 (Algebraic functions)`
+        - (6) `三角函数 (Trigonometric functions)`
+        - (7) `指数函数 (Exponential functions)`
+        - (8) `对数函数 (Logarithmic functions)`
+        - (9) `超越函数 (Transcendental functions)`
     + 1.1.7 增函数与减函数
     + 1.1.8 偶函数与奇函数: 函数的对称性
 - 1.2 函数组合及移动图形与改变图形标度
