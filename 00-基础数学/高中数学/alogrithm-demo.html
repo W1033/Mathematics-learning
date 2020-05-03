@@ -131,5 +131,22 @@
                 $$
             `
     </script>
+
+    <script>
+        // - 判断一个数是否为质数
+        function isPrime(num) {
+            if (num <= 2) return;
+            let i = 2;
+            let len = num - 1;
+            for (; i <= len; i++) {
+                if ( num % i === 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        console.log(isPrime(7));
+        console.log(isPrime(25));
+    </script>
 </body>
 </html>
