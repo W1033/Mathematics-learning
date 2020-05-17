@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>high school algorithm demo</title>
+    <!-- 首先添加内联配置的选项, 这个选项需要写在下面 cdn 加载 MathJax 之前.-->
+    <!-- tip: 內连配置即允许 MathJax 公式和 html 元素写在同一行,
+        或者写成一个代码块. -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            }
+        });
+    </script>
+    <!-- 引入 MathJax 国内 CDN 镜像, 实现在页面中显示 LaTex 公式 -->
+    <link rel="dns-prefetch" href="//cdn.bootcss.com" />
+    <link rel="dns-prefetch" href="//cdn.mathjax.org" />
+    <script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <!-- 引用 Typo.css 重置默认 CSS 样式. -->
+    <link rel="stylesheet" href="./typo.css">
+    <style type="text/css">
+        .container {
+            width: 66%;
+            margin: 20px auto;
+            background: #66cc99;
+            border-radius: 4px;
+            min-height: 660px;
+        }
+        .container p {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        .MathJax{ outline: 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>
+            <span>对于一般的二元一次方程组</span>
+            $$
+            \begin{cases}
+                a_1x + b_1y = c_1,  & \text{(1)}  \\
+                a_2x + b_2y = c_2,  & \text{(2)}
+            \end{cases}
+            $$
+            其中 $a_1b_2 - a_2b_1 \neq 0$. 求 $x$, $y$ 的值?
+        </p>
+        <p>
+            <span>Answer: 方程组的解为: </span>
+            $$
+            \begin{cases}
+            x = \frac{b_2c_1 - b_1c_2}{a_1b_2 - a_2b_1}  \\[2ex]
+            y = \frac{a_1c_2 - a_2c_1}{a_1b_2 - a_2b_1}
+            \end{cases}
+            $$
+        </p>
+        <hr>
+        <p>
+            <span>解下面二元一次方程: </span>
+            $$
+            \begin{cases}
+            x - y = 3,  & \text{(1)}  \\
+            3x - 8y = 4,  & \text{(2)}
+            \end{cases}
+            $$
+            求 $x$, $y$ 的值?
+        </p>
+        <p>
+            <span>Answer: 方程的解为: <br>
+                <i class="result"></i>
+            </span>
+        </p>
+    </div>
+    <script>
+        // - 首先声明一个用来表示二元一次方程组的函数, 此函数接收一个 6 个属性的对象
+        function linearEquations(obj) {
+            let {a1 = 1, a2 = 1, b1 = 1, b2 = 1, c1 = 1, c2 = 1} = obj;
+
+            // function multiply(a, b) {
+            //     a = String(a);
+            //     b = String(b);
+            //     if (a.includes('-') && b.includes('-')) {
+            //         a = Number(a);
+            //         b = Number(b);
+            //         return a * b;
+            //     }
+            //     else {
+            //         a = Number(a);
+            //         b = Number(b);
+            //         return a * b
+            //     }
+            // }
+            // console.log('b2 * c1', multiply(b2, c1));
+            // console.log('b1 * c2', multiply(b1, c2));
+            // console.log('a1 * c2', multiply(a1, c2));
+            // console.log('b2 * c1', multiply(b2, c1));
+
+
+            // - 直接套用上面解二元一次方程组解的公式即可.
+            let x = (b2 * c1 - b1 * c2) / (a1 * b2 - a2 * b1);
+
+            let y = (a1 * c2 - a2 * c1) / (a1 * b2 - a2 * b1);
+
+            return {x, y}
+        }
+
+        const obj = {
+            a1: 1,
+            a2: 3,
+            b1: -1,
+            b2: -8,
+            c1: 3,
+            c2: 4
+        };
+        let {x, y} = linearEquations(obj)
+
+        const resultI = document.querySelector('.result');
+        resultI.innerHTML =
+            `
+                $$
+                \\begin{cases}
+                x =  ${x}  \\\\
+                y =  ${y}
+                \\end{cases}
+                $$
+            `
+    </script>
+
+    <script>
+        // - 判断一个数是否为质数
+        function isPrime(num) {
+            if (num <= 2) return;
+            let i = 2;
+            let len = num - 1;
+            for (; i <= len; i++) {
+                if ( num % i === 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        console.log(isPrime(7));
+        console.log(isPrime(25));
+    </script>
+</body>
+</html>
