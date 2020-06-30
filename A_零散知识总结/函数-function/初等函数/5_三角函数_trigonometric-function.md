@@ -57,7 +57,7 @@
         - Range: 值域
         - All real numbers except odd integer multiples of $\pi/2$:
           除 π/2 的奇数整数倍之外的所有实数
-    + <img src="../../高中数学/images/4th/trigonometric-function-02.png" style="width: 90%;">
+    + <img src="../../../高中数学/images/4th/trigonometric-function-02.png" style="width: 90%;">
 
 ## 基本类型的三角函数
 1. 正弦sin函數:(sine /saɪn/ ):

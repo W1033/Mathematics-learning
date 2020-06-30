@@ -1,27 +1,27 @@
 # Mathematics learning 数学学习
 
+> Tip: Github 不支持 markdown 中预览 mathJax 书写的数学公式,
+  建议 clone 仓库, 在本地计算机上安装 Typora, 然后在 "偏好设置" 中打开 "内联公式".
 
-$\color{#E87631}{\large }$
-$\quad$
 
-## Repository Directory (当前仓库目录)
+## Directory (当前仓库目录)
 - A_零散知识总结
     + 计算一点绕坐标轴原点旋转后的坐标.md
     + 皮亚诺公理.md
-    + 如何编程判断一个数是否是指数-知乎.pdf
+    + 如何编程判断一个数是否是质数-知乎.pdf
     + 如何证明数学归纳法是正确的.md
     + 序列是什么.md
-    + 函数-function (文件夹(folder))
+    + 函数-function
         - 函数.md
-    + 数学乐-Wikipedia (folder)
+    + 数学乐-Wikipedia
         - 单位圆.md
         - 方根.md
         - 复数.md
         - 向量-矢量.md
     + ReadMe_基础定理.md
 - 00_基础数学
-    + 初中数学 (folder)
-    + 高中数学 (folder)
+    + 初中数学
+    + 高中数学
 - 01_微积分-Calculus
     + 《University Calculus》
     + ReadMe.md
