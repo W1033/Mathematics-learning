@@ -26,6 +26,9 @@
 
 ## Content
 
+### 缩小/放大字体
+- `\small{}, \Small{}, \normal{}, \large{}, \Large{}`...
+
 ### 上下标:
 |名称 |数学表达式| markdown公式|
 |:---: |:---:| :---: |
