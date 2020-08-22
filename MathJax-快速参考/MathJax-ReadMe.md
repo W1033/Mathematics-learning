@@ -221,6 +221,13 @@
         - $a b$ $\quad$ `$a b$`
     + 四字格 (`\quad`)
         - $a \quad b$ $\quad$ `$a \quad b$`
+    + 两个 `\quad` 空格: `a \qquad b` a \qquad b
+    + 大空格 `a\ b`
+        - a\ b
+    + 中等空格 `a\;b`
+        - a\;b
+    + 小空格 `a\,b`
+        - a\,b
 - **更多字符**: 
     + 见同级目录中的: MathJax-symbols.pdf
 
