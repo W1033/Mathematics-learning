@@ -50,7 +50,7 @@
             x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}
           $$
 - (2) **`{\over}`**
-    
+  
     + 示例:  ${a+1 \over b+1}$ $\quad$ `${a+1 \over b+1}$` 
 - (3) **`\cfrac{}{}`**: is useful for continued fractions (连续分数很有用) 。
   (Tips:不知道这个连续分数是什么) 
@@ -166,7 +166,7 @@
     + : $\subset$ $\quad$ `$\subset$`
     + : $\supset$ $\quad$ `$\supset$`
     + 点: $\cdot$ $\quad$ `$\cdot$`
-    + 圆: $\circ$ $\quad$  `$\circ`
+    + 圆: $\circ$ $\quad$  `$\circ$`
     + 中间的点: $\centerdot$ $\quad$ `$\centerdot$`
     + copyrights: $\copyright$ $\quad$ `$\copyright$`
     + : $\maltese$ $\quad$ `$\maltese$`
