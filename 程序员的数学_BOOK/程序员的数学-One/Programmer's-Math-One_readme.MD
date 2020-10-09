@@ -246,7 +246,7 @@
 
 
 
-## Contents
+## Content
 ### 第 1 章 -- 0 的故事
 - <a href="./Chapter01-0的故事">./Chapter01-0的故事</a>
 
